@@ -1,0 +1,12 @@
+{
+  "name": "summary",
+  "version": "1.0.0",
+  "description": "summary",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html /public/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
