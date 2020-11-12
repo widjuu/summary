@@ -1,19 +1,41 @@
 header {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
 }
 
 .avatar {
-  max-width: 400px;
+  max-width: 350px;
+  margin-right: 30px;
 }
 
 .icon {
   max-height: 20px;
-  margin-right: 2px;
+  margin-right: 10px;
 }
 
 .contact-item {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.separator {
+  justify-self: center;
+  max-width: 800px;
+  background-color: black;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.separator-title {
+  margin: 0;
+  color: white;
 }
