@@ -1,2 +1,3 @@
-# summary
-summary
+Здесь представлено мое резюме на должность junior front-end developer.
+
+При написании данного резюме использовались: html & css.
