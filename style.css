@@ -1,18 +1,23 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   margin: 10px;
 }
 
+a {
+  color: #000000;
+}
+
 .wrapper {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
   background: #ffffff;
 }
 
 .avatar {
-  max-width: 350px;
+  max-width: 275px;
   margin-right: 30px;
 }
 
