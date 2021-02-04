@@ -6,6 +6,10 @@ header {
   margin: 10px;
 }
 
+body {
+  font-family: "Arial", sans-serif;
+}
+
 a {
   color: #000000;
 }
