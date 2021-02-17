@@ -2,18 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дмитрий Глянь</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link rel="stylesheet" href="./normalize.css" />
+    <title>Дмитрий Глянь</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <div><img class="avatar" src="./public/images/avatar.jpg" alt="my-photo" /></div>
         <div>
-          <h1>Глянь Дмитрий</h1>
-          <h3>Front-end developer</h3>
+          <img class="avatar" src="./public/images/avatar.jpg" alt="my-photo" />
+        </div>
+        <div class="contacts">
+          <div class="tittle">
+            <h1 class="name">Глянь Дмитрий</h1>
+            <h3 class="profession">Front-end developer</h3>
+          </div>
 
           <div class="contact-item">
             <img class="icon" src="./public/images/e-mail.png" alt="e-mail" />
@@ -33,7 +37,7 @@
           </div>
           <div class="contact-item">
             <img class="icon" src="./public/images/git.png" alt="github" />
-            <a href="http://github.com/widjuu" target="_blank">github/widjuu</п>
+            <a href="http://github.com/widjuu" target="_blank">github/widjuu</a>
           </div>
           <div class="contact-item">
             <img
@@ -41,13 +45,13 @@
               src="./public/images/location.png"
               alt="location"
             />
-            <a href="https://goo.gl/maps/mf1kmKfbSGyEFz7s5" target="_blank">Донецк</a>
+            <a href="https://goo.gl/maps/mf1kmKfbSGyEFz7s5" target="_blank"
+              >Донецк</a
+            >
           </div>
           <div class="contact-item">
             <img class="icon" src="./public/images/summary.png" alt="summary" />
-            <a href="./public/GlianDV.pdf" target="_blank"
-              >GlianDV.pdf</a
-            >
+            <a href="./public/GlianDV.pdf" target="_blank">GlianDV.pdf</a>
           </div>
         </div>
       </header>
@@ -59,7 +63,10 @@
       <section class="my-info">
         <p><b>Гражданство:</b> Российская Федерация</p>
         <p><b>Место проживания:</b> г. Донецк</p>
-        <p><b>Образование:</b> Высшее, факультет "Компьютерных информационных технологий и автоматики", ДонНТУ</p>
+        <p>
+          <b>Образование:</b> Высшее, факультет "Компьютерных информационных
+          технологий и автоматики", ДонНТУ
+        </p>
         <p><b>Дата рождения:</b> 12 мая 1993 г.</p>
         <p><b>Семейное положение:</b> женат (детей нет)</p>
         <p>
@@ -74,6 +81,22 @@
       </div>
 
       <section class="experience">
+        <div>
+          <h2>Giveback</h2>
+          <p><b>Июнь 2020 — Декабрь 2020</b></p>
+          <p>Платформа для социально-ответственного бизнеса</p>
+          <p>
+            В команде я разрабатывал социальную сеть для корпоративного
+            волонтерства. В мои обязанности входили: разработка UI kit с помощью
+            storybook, написание новых компонентов, правка существующих; участие
+            в разработке нового функционала в платформе; рефакторинг устаревшей
+            кодовой базы; помогал в проведении code-review и тестировании
+            приложения.
+          </p>
+          <p>Стек: react, typescript, apollo, material ui</p>
+        </div>
+
+        <div class="line"></div>
         <div>
           <h2>
             ООО "Д-Маркет", Начальник технического отдела сервисного центра
